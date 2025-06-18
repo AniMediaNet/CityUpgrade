@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Игра</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: black;
+    }
+    .iframe-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vh; /* так как повернуто */
+      height: 100vw;
+      transform: rotate(90deg) translateY(-100%);
+      transform-origin: top left;
+    }
+    iframe {
+      width: 100%; 
+      height: 100%;
+      border: none;
+      margin-дуае: 150px; /* Сдвиг вниз, чтобы баннер спрятать */
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-wrapper">
+    <iframe src="https://gd.games/games/dfabad15-41df-4614-b819-dad2588cd27a" allowfullscreen></iframe>
+  </div>
+</body>
+</html>
